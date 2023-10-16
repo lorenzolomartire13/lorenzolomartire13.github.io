@@ -16,7 +16,7 @@ const load = function(page) {
 		setTimeout(()=>{
 			loader.style.transform = 'rotate(1.5turn)';
 		}, 2);
-	}, 'LL-10 - loading').load();
+	}, 'lorenzolomartire13 - loading').load();
 	setTimeout(()=>{
 		page.load();
 	}, 1200);
@@ -28,6 +28,6 @@ const nav = new HTMLFragment(nav => {
 
 const home = new HTMLDocument(body => {
 	nav.use();
-}, 'LL-10');
+}, 'lorenzolomartire13');
 
 load(home);
